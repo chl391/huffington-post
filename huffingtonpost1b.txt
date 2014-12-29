@@ -1,1 +1,1 @@
-Buttons below version in Settings/About don’t work
+Buttons below version in Settings/About don’t work - app crashes when select
