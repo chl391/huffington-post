@@ -1,6 +1,7 @@
 def longestRange(array):
     if len(array) == 0:
         print("The longest consecutive range is 0.")
+        return
     arraySet = set([])
     maximum = 1
     leftmost = array[0]
@@ -28,4 +29,4 @@ def longestRange(array):
             leftmost = currentLeftmost
     print("The longest conseuctive range is",maximum,"beginning with number",leftmost,end="")
     print(".")
-longestRange([5,6,9,8,7,2,1,11])
+longestRange([])

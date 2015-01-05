@@ -45,5 +45,5 @@ def getMissing(array):
                 string += str(array[i]+1)+'-'+str(array[i+1]-1)+','
     return string
 
-array = [0,1, 2, 50, 52, 75]
+array = [2, 50, 52, 75]
 print(getMissing(array))
